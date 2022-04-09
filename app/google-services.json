@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1064146689529",
+    "project_id": "tugas3-maps",
+    "storage_bucket": "tugas3-maps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064146689529:android:9bfbb37115bb85953b3128",
+        "android_client_info": {
+          "package_name": "com.immanuel.tugas3_googlemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064146689529-b6q7lkcth68th2aa68k5evg3o01p5p5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJORXK7a8QA2n5lEvPCOzssGchcRGIFsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064146689529-b6q7lkcth68th2aa68k5evg3o01p5p5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
