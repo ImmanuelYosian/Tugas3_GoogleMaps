@@ -93,7 +93,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         } else {
             locationGPS = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             if (locationGPS == null) {
-                Toast.makeText(this, "Unable to find location. you will use default location Salatiga", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Unable to find location. you will use default location Pati", Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -109,7 +109,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        LatLng firstMarker = new LatLng(-7.3305, 110.5084);
+        LatLng firstMarker = new LatLng(-6.75359360, 111.03934970);
         mMap = googleMap;
         if(locationGPS != null){
             firstMarker = new LatLng(locationGPS.getLatitude(), locationGPS.getLongitude());

@@ -16,7 +16,7 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        map:layout_constraintHeight_percent="0.65"
+        map:layout_constraintHeight_percent="0.60"
         tools:context=".MapsActivity"
         map:layout_constraintTop_toTopOf="parent"
         map:layout_constraintStart_toStartOf="parent"/>
@@ -87,7 +87,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         map:layout_constraintTop_toBottomOf="@id/et_placeName"
         map:layout_constraintStart_toStartOf="parent"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="15dp"
         map:layout_constraintWidth_percent="0.45"
         android:layout_marginTop="8dp">
 
@@ -107,7 +107,7 @@
         map:layout_constraintTop_toBottomOf="@id/et_placeName"
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintWidth_percent="0.45"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="15dp"
         android:layout_marginTop="8dp">
 
         <com.google.android.material.textfield.TextInputEditText
